@@ -1,0 +1,27 @@
+name: ${name}
+version: ${version}
+description: ${description}
+author: ${author}
+website: ${url}
+
+main: ${mainClass}
+
+commands:
+  ores:
+    description: "View a players mined ore statistics."
+    permission: quarry.ores
+  resetores:
+    description: "Reset a players mined ore statistics."
+    permission: quarry.resetores
+permissions:
+  quarry.*:
+    children:
+      quarry.ores: true
+      quarry.resetores: true
+    description: "Gives access to all ores commands."
+  quarry.ores:
+    default: true
+    description: "View a players mined ore statistics."
+  quarry.resetores:
+    default: op
+    description: "Reset a players mined ore statistics."
