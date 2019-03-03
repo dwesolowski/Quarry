@@ -10,6 +10,7 @@ public class Quarry extends JavaPlugin {
     @Override
     public void onEnable() {
         registerCommands();
+        registerMetrics();
     }
 
     @Override
@@ -20,5 +21,9 @@ public class Quarry extends JavaPlugin {
     private void registerCommands() {
         getCommand("ores").setExecutor(new OresCommand(this));
         getCommand("resetores").setExecutor(new ResetOresCommand(this));
+    }
+
+    private void registerMetrics() {
+        final MetricsLite metrics = new MetricsLite(this);
     }
 }

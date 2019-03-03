@@ -1,8 +1,10 @@
 # Quarry - Plugin for Bukkit | Spigot
 
+[![Software License](http://img.shields.io/badge/License-MIT-brightgreen.svg?style=flat-square)](LICENSE)
+
 View or reset a players mined ore statistics.
 
-#### Supported Versions: 1.11+
+#### Supported Versions: 1.13+
 
 ## Commands:  
 - /ores: View the current players mined ore statistics.  

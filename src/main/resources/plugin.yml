@@ -1,10 +1,7 @@
-name: ${name}
+name: Quarry
 version: ${version}
-description: ${description}
-author: ${author}
-website: ${url}
-
-main: ${mainClass}
+main: com.github.dwesolowski.quarry.Quarry
+api-version: 1.13
 
 commands:
   ores:

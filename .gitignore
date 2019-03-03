@@ -1,5 +1,4 @@
 # IntelliJ
 /target/
-/.idea/
 /out/
-/*.iml
+*.iml
